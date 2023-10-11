@@ -35,7 +35,7 @@ if [ $? -eq 0 ]; then
     if [ $? -eq 0 ]; then
         #stop old jar
         echo "+----------------------+"
-        echo "| stopping new jar ... |"
+        echo "| stopping old jar ... |"
         echo "+----------------------+"
         pkill -f okrajni-pl.jar
 
