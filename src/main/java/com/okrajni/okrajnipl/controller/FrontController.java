@@ -10,4 +10,14 @@ public class FrontController {
     public String homePage() {
         return "home";
     }
+
+    @GetMapping("/user")
+    public String userPage() {
+        return "user";
+    }
+
+    @GetMapping("/admin")
+    public String adminPage() {
+        return "admin";
+    }
 }
