@@ -10,5 +10,4 @@ public class FrontController {
     public String homePage() {
         return "home";
     }
-
 }
